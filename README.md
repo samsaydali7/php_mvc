@@ -46,5 +46,5 @@ RewriteBase /FOLDER_NAME/public
 **example: having public and root folders in folder called mvc: 
 
 ```
-RewriteBase /FOLDER_NAME/mvc
+RewriteBase /mvc/public
 ```
