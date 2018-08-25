@@ -1,22 +1,24 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Samer
- * Date: 8/20/2018
- * Time: 6:18 PM
- */
-
-class Pages
-{
+  class Pages extends Controller {
     public function __construct(){
 
     }
-
+    
     public function index(){
-
+      
+      $data = [
+        'title' => 'Welcome To PHP MVC',
+        'description' => 'Core framework is done!, Focus on your app!'
+      ];
+     
+      $this->view('pages/index', $data);
     }
 
-    public function about($id){
-        echo $id;
+    public function about(){
+      $data = [
+        'title' => 'About Page Example'
+      ];
+
+      $this->view('pages/about', $data);
     }
-}
+  }
