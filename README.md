@@ -9,27 +9,33 @@ Starter MVC framework written in PHP for future projects.
 You need to edit the file ../app/config/config.php, and set the foloowing:
 
 - Set the host
+
   ```
   define('DB_HOST', '__HOST__');
   ```
   
 - Set database user
+
   ```
   define('DB_USER', '__DB_USER__');
   ```
   
 - Set database password
+
   ```
   define('DB_PASS', '__DB_PASSWORD__');
   ```
-- Set database password
+- Set database name 
+
   ```
   define('DB_NAME', '__DB_NAME__');
   ```
 - Set app root
+
   ```
   define('URLROOT', '__ROOT_URL__');
   ```
+  
   **example: http://localhost/mvc 
   ```
   define('URLROOT', 'http://localhost/mvc');
